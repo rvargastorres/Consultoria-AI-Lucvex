@@ -192,6 +192,7 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
 .corp{padding:70px 0 90px}
 .corp-tabs{display:flex;gap:6px;border-bottom:1px solid var(--linea);margin-top:22px}
 .corp .panel{padding-top:26px}
+.mv{display:grid;grid-template-columns:1fr 1fr;gap:34px}.mv h3{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acento);margin-bottom:6px}@media(max-width:760px){.mv{grid-template-columns:1fr;gap:22px}}
 .contacto-filas{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 /* barra móvil */
 .barra{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:8px;padding:10px 14px;background:rgba(248,241,228,.94);backdrop-filter:blur(10px);border-top:1px solid var(--linea)}
@@ -370,7 +371,12 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
         <button class="pestana" role="tab" id="c-contacto" aria-controls="q-contacto" aria-selected="false" tabindex="-1">Contacto</button>
       </div>
       <div class="panel activo" role="tabpanel" id="q-quienes" aria-labelledby="c-quienes"><p class="t" style="max-width:66ch">Lucvex IA es una empresa de automatización e inteligencia artificial. Auditamos procesos y desarrollamos soluciones web instantáneas por sector, además de proyectos a medida. Primero entendemos, luego simplificamos y solo entonces automatizamos.</p></div>
-      <div class="panel" role="tabpanel" id="q-mision" aria-labelledby="c-mision" hidden><p class="t" style="max-width:66ch"><b>Visión:</b> un tejido empresarial donde la tecnología no estorba. <b>Misión:</b> quitar fricción a las empresas con auditoría, automatización e IA, con soluciones que se usan desde el primer minuto.</p></div>
+      <div class="panel" role="tabpanel" id="q-mision" aria-labelledby="c-mision" hidden>
+        <div class="mv">
+          <div><h3>Misión</h3><p class="t">Crear soluciones tecnológicas inteligentes, prácticas y rentables que eliminen los cuellos de botella operativos más complejos de las empresas y particulares, transformando la complejidad en flujos fluidos y permitiendo a nuestros clientes desplegar todo su potencial de crecimiento. Lo hacemos bajo una filosofía inquebrantable de confianza, intercambio de valor mutuo y adaptación absoluta al perfil de cada usuario, convirtiéndonos en herramientas imprescindibles para su evolución.</p></div>
+          <div><h3>Visión</h3><p class="t">Ser el referente global en sistemas de gestión autónomos y copilotaje 360°, demostrando que la verdadera innovación tecnológica debe ser sostenible, profundamente útil desde el primer día y generadora de un impacto económico y operativo real tanto para los negocios locales como para los mercados internacionales.</p></div>
+        </div>
+      </div>
       <div class="panel" role="tabpanel" id="q-contacto" aria-labelledby="c-contacto" hidden>
         <div class="contacto-filas">
           <a class="btn wa" data-wa="Hola, me gustaría concertar una cita con Lucvex IA." href="https://wa.me/34654980755"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Concertar una cita</a>
