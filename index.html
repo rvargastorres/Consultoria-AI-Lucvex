@@ -3,436 +3,215 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lucvex · Agente de voz y comandero digital para restaurantes</title>
-<meta name="description" content="No pierdas llamadas en hora punta y gestiona tu restaurante sin comisiones por pedido: agente de voz con IA para reservas y atención 24/7, y comandero digital con impresión en cocina y barra. Prueba 14 días sin tarjeta.">
+<title>Lucvex IA · Automatización e inteligencia artificial</title>
+<meta name="description" content="Simplifica, automatiza, fluye. Lucvex IA es una empresa de automatización e inteligencia artificial: auditoría de procesos, aplicaciones escalables, consultoría y desarrollo a medida.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="canonical" href="https://lucvex.com/">
-<meta property="og:title" content="Lucvex · Agente de voz y comandero digital para restaurantes">
-<meta property="og:description" content="Atiende cada llamada, apunta cada reserva y manda cada comanda a su sitio. Sin comisiones por pedido.">
+<meta property="og:title" content="Lucvex IA · Simplifica, automatiza, fluye.">
+<meta property="og:description" content="Automatización e inteligencia artificial: auditoría, aplicaciones escalables, consultoría y desarrollo a medida.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lucvex.com/">
-<meta name="theme-color" content="#0f172a">
+<meta property="og:image" content="https://lucvex.com/img/og.png">
+<meta name="theme-color" content="#f7f4ee">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#0f172a;--ink2:#334155;--mute:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc;--brand:#2563eb;--brand-d:#1d4ed8;--brand-l:#eff6ff;--ok:#059669;--warn:#b45309;--radius:14px}
+:root{
+  --crema:#f7f4ee; --papel:#faf7f2; --tinta:#1c1917; --marron:#241f18; --naranja:#c1631a; --naranja-suave:#fbf1e6;
+  --texto:#241f18; --texto2:#4a4137; --mute:#6b6258; --linea:#e6dfd3; --fondo:#f7f4ee; --tarjeta:#faf7f2; --acento:#c1631a;
+  --boton:#1c1917; --boton-texto:#f7f4ee; --radio:14px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){
+  --texto:#f7f4ee; --texto2:#d9d1c4; --mute:#a99f91; --linea:#3a332a; --fondo:#1c1917; --tarjeta:#241f18; --acento:#e08a45;
+  --boton:#f7f4ee; --boton-texto:#1c1917; --naranja-suave:#2c241b;
+}}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--texto);background:var(--fondo);line-height:1.65;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-img,svg{max-width:100%}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:100;border-radius:8px}
-/* Cabecera */
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--tarjeta);padding:8px 12px;z-index:100;border-radius:8px}
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--fondo) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
-.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.02em;text-decoration:none}
-.logo span{color:var(--brand)}
-.nav ul{display:flex;gap:28px;list-style:none;font-size:.92rem;font-weight:500;color:var(--ink2)}
-.nav ul a{text-decoration:none}.nav ul a:hover{color:var(--brand)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:600;font-size:.95rem;padding:12px 22px;border-radius:10px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:.15s}
-.btn-p{background:var(--brand);color:#fff;box-shadow:0 1px 2px rgba(37,99,235,.3)}.btn-p:hover{background:var(--brand-d)}
-.btn-s{background:#fff;color:var(--ink);border-color:var(--line)}.btn-s:hover{border-color:#cbd5e1;background:var(--soft)}
-.btn-d{background:var(--ink);color:#fff}.btn-d:hover{background:#1e293b}
-.btn-sm{padding:9px 16px;font-size:.88rem}
-.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #93c5fd;outline-offset:2px}
-@media(max-width:820px){.nav ul{display:none}}
-/* Hero */
-.hero{padding:72px 0 64px;background:linear-gradient(180deg,var(--soft),#fff)}
-.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
-.kicker{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand);background:var(--brand-l);border:1px solid #bfdbfe;padding:5px 12px;border-radius:99px;margin-bottom:20px}
-h1{font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.08;letter-spacing:-.03em;font-weight:800}
-h1 em{font-style:normal;color:var(--brand)}
-.lead{font-size:1.15rem;color:var(--ink2);margin-top:20px;max-width:34em}
-.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
-.proof{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:26px;font-size:.88rem;color:var(--mute)}
-.proof span::before{content:"✓";color:var(--ok);font-weight:800;margin-right:6px}
-@media(max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:40px}.hero{padding:44px 0}}
-/* Maqueta del hero */
-.mock{position:relative;display:grid;gap:14px}
-.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 10px 30px -12px rgba(15,23,42,.18)}
-.call{padding:18px 20px}
-.call-h{display:flex;justify-content:space-between;align-items:center;font-size:.75rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--mute)}
-.live{color:var(--ok);display:inline-flex;align-items:center;gap:6px}.live::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ok);animation:p 1.8s infinite}
-@keyframes p{50%{opacity:.3}}
-.bub{margin-top:12px;padding:10px 14px;border-radius:12px;font-size:.92rem;max-width:88%}
-.bub.c{background:var(--soft);border:1px solid var(--line)}
-.bub.a{background:var(--brand);color:#fff;margin-left:auto}
-.tick{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ticket{padding:16px 18px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;line-height:1.55}
-.ticket b{display:block;font-family:Inter,sans-serif;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brand);margin-bottom:6px}
-.ticket hr{border:0;border-top:1px dashed #cbd5e1;margin:8px 0}
-@media(prefers-reduced-motion:reduce){.live::before{animation:none}html{scroll-behavior:auto}}
-/* Secciones */
-section{padding:84px 0}
-.alt{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--brand);margin-bottom:10px}
-h2{font-size:clamp(1.7rem,3.2vw,2.35rem);line-height:1.15;letter-spacing:-.025em;font-weight:800;max-width:24em}
-.sub{color:var(--ink2);font-size:1.07rem;margin-top:14px;max-width:40em}
-.grid{display:grid;gap:22px;margin-top:44px}
-.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
-@media(max-width:900px){.g3,.g2{grid-template-columns:1fr}.g4{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.g4{grid-template-columns:1fr}}
-.pain{padding:26px}.pain h3{font-size:1.05rem;margin:10px 0 6px}.pain p{color:var(--ink2);font-size:.95rem}
-.ico{width:42px;height:42px;border-radius:10px;background:var(--brand-l);color:var(--brand);display:grid;place-items:center;font-size:1.2rem}
-.pillar{padding:34px}
-.pillar h3{font-size:1.35rem;letter-spacing:-.02em;margin:14px 0 8px}
-.pillar>p{color:var(--ink2)}
-.ticks{list-style:none;margin-top:18px;display:grid;gap:10px;font-size:.95rem}
-.ticks li{padding-left:26px;position:relative;color:var(--ink2)}
-.ticks li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
-.note{margin-top:18px;font-size:.84rem;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
-.steps{counter-reset:s}
-.step{padding:26px}.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;font-weight:700;font-size:.9rem;margin-bottom:14px}
-.step h3{font-size:1.05rem;margin-bottom:6px}.step p{color:var(--ink2);font-size:.95rem}
-/* Packs */
-.pack{padding:28px;display:flex;flex-direction:column;position:relative}
-.pack.feat{border-color:var(--brand);box-shadow:0 14px 34px -14px rgba(37,99,235,.35)}
-.tag{position:absolute;top:-12px;left:24px;background:var(--brand);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 12px;border-radius:99px}
-.pack h3{font-size:1.15rem}.pack .for{font-size:.88rem;color:var(--mute);margin-top:2px}
-.price{font-size:2.2rem;font-weight:800;letter-spacing:-.03em;margin:16px 0 2px}.price small{font-size:.9rem;font-weight:500;color:var(--mute);letter-spacing:0}
-.pack .ticks{margin:16px 0 0;flex:1}
-.fine{font-size:.84rem;color:var(--mute);margin-top:22px;max-width:46em}
-/* Planes */
-.plan{padding:22px}.plan h3{font-size:1rem}.plan .p{font-size:1.7rem;font-weight:800;margin:6px 0;letter-spacing:-.02em}.plan .p small{font-size:.8rem;font-weight:500;color:var(--mute)}
-.plan p{font-size:.88rem;color:var(--ink2)}
-/* Auditoría */
-.dark{background:var(--ink);color:#fff}
-.dark .eyebrow{color:#93c5fd}.dark .sub{color:#cbd5e1}
-.aud{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
-@media(max-width:900px){.aud{grid-template-columns:1fr;gap:34px}}
-.aud ul{list-style:none;margin-top:24px;display:grid;gap:12px;color:#e2e8f0}
-.aud li{padding-left:26px;position:relative}.aud li::before{content:"✓";position:absolute;left:0;color:#6ee7b7;font-weight:800}
-.form{background:#fff;color:var(--ink);border-radius:var(--radius);padding:30px;box-shadow:0 20px 50px -20px rgba(0,0,0,.5)}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:560px){.row{grid-template-columns:1fr}.form{padding:22px}}
-label{display:block;font-size:.85rem;font-weight:600;margin:14px 0 6px}
-label small{font-weight:400;color:var(--mute)}
-input,select,textarea{width:100%;font:inherit;font-size:.95rem;padding:11px 13px;border:1px solid #cbd5e1;border-radius:9px;background:#fff;color:var(--ink)}
-textarea{min-height:84px;resize:vertical}
-input:focus,select:focus,textarea:focus{border-color:var(--brand)}
-.chk{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.82rem;color:var(--ink2);font-weight:400}
-.chk input{width:18px;height:18px;margin-top:2px;flex:none}
-.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
-.form .btn{width:100%;margin-top:18px;padding:14px}
-.msg{margin-top:14px;font-size:.9rem;padding:12px 14px;border-radius:9px;display:none}
-.msg.e{display:block;background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
-.ok-box{display:none;text-align:center;padding:14px 4px}
-.ok-box.on{display:block}.ok-box .big{font-size:2.4rem}.ok-box h3{font-size:1.3rem;margin:6px 0}.ok-box p{color:var(--ink2);margin-bottom:18px}
-.priv{font-size:.78rem;color:var(--mute);margin-top:12px}
-.priv a{color:var(--brand)}
-/* Autor + pie */
-.who{display:flex;gap:22px;align-items:center;max-width:820px}
-.av{flex:none;width:64px;height:64px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-weight:800;font-size:1.3rem}
-.who p{color:var(--ink2)}
-@media(max-width:560px){.who{flex-direction:column;text-align:center}}
-footer{background:#020617;color:#94a3b8;font-size:.86rem;padding:44px 0}
-footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
-footer a{color:#cbd5e1}
-#wa{position:fixed;right:20px;bottom:20px;z-index:60;background:#16a34a;color:#fff;text-decoration:none;display:flex;align-items:center;gap:10px;padding:13px 18px;border-radius:99px;font-weight:600;font-size:.92rem;box-shadow:0 10px 25px -8px rgba(22,163,74,.7)}
-#wa:hover{background:#15803d}
-@media(max-width:520px){#wa span{display:none}#wa{padding:15px}}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:1.15rem;letter-spacing:-.01em}
+.marca img{width:34px;height:34px;border-radius:8px}
+.marca span{color:var(--acento)}
+.nav ul{display:flex;gap:28px;list-style:none;font-size:.92rem;font-weight:500;color:var(--texto2)}
+.nav ul a{text-decoration:none}.nav ul a:hover{color:var(--acento)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:600;font-size:.95rem;padding:12px 22px;border-radius:999px;border:1px solid var(--boton);background:var(--boton);color:var(--boton-texto);text-decoration:none;cursor:pointer;transition:transform .15s,opacity .15s}
+.btn:hover{transform:translateY(-1px);opacity:.92}
+.btn.sec{background:transparent;color:var(--texto);border-color:var(--linea)}
+.btn.sec:hover{border-color:var(--acento);color:var(--acento)}
+.btn.peq{padding:9px 18px;font-size:.88rem}
+section{padding:88px 0}
+.etiqueta{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--acento);margin-bottom:14px}
+h1{font-size:clamp(2.4rem,6.4vw,4.4rem);line-height:1.05;letter-spacing:-.035em;font-weight:800}
+h1 em{font-style:normal;color:var(--acento)}
+h2{font-size:clamp(1.7rem,3.6vw,2.4rem);line-height:1.15;letter-spacing:-.025em;font-weight:700;max-width:22ch}
+.lead{font-size:1.15rem;color:var(--texto2);max-width:60ch;margin-top:22px}
+.hero{padding:96px 0 72px}
+.hero .acciones{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.flujo{display:flex;align-items:center;gap:0;margin-top:56px;max-width:620px}
+.flujo i{flex:1;height:2px;background:linear-gradient(90deg,var(--linea),var(--acento))}
+.flujo b{width:12px;height:12px;border-radius:50%;background:var(--acento);flex:none}
+.flujo b:first-child{background:var(--linea)}
+.pasos{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+.paso{padding:22px;border:1px solid var(--linea);border-radius:var(--radio);background:var(--tarjeta)}
+.paso .n{font-size:.8rem;font-weight:700;color:var(--acento);letter-spacing:.1em}
+.paso h3{font-size:1.1rem;margin:8px 0 6px}
+.paso p{font-size:.93rem;color:var(--texto2)}
+.nota-aud{margin-top:26px;padding:18px 22px;border-radius:var(--radio);background:var(--naranja-suave);color:var(--texto);max-width:64ch;font-size:.98rem}
+.alt{background:var(--tarjeta);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:44px}
+.card{padding:28px;border:1px solid var(--linea);border-radius:var(--radio);background:var(--fondo);display:flex;flex-direction:column;gap:10px}
+.card .tag{align-self:flex-start;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px;border:1px solid var(--linea);color:var(--mute)}
+.card .tag.ok{color:var(--acento);border-color:var(--acento)}
+.card h3{font-size:1.25rem;letter-spacing:-.01em}
+.card p{color:var(--texto2);font-size:.97rem}
+.card a.mas{margin-top:auto;padding-top:8px;font-weight:600;font-size:.93rem;color:var(--acento);text-decoration:none}
+.card a.mas:hover{text-decoration:underline}
+.medida{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.medida ul{list-style:none;display:grid;gap:14px;margin-top:6px}
+.medida li{padding-left:28px;position:relative;color:var(--texto2)}
+.medida li::before{content:"";position:absolute;left:0;top:.62em;width:14px;height:2px;background:var(--acento)}
+.medida li b{color:var(--texto)}
+.contacto{text-align:left}
+.contacto .datos{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.fino{margin-top:18px;color:var(--mute);font-size:.9rem}
+footer{border-top:1px solid var(--linea);padding:28px 0 36px;color:var(--mute);font-size:.88rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+footer a{color:var(--mute)}
+@media(max-width:860px){
+  .pasos{grid-template-columns:1fr 1fr}
+  .cards{grid-template-columns:1fr}
+  .medida{grid-template-columns:1fr;gap:28px}
+  .nav ul{display:none}
+  section{padding:64px 0}.hero{padding:64px 0 48px}
+}
+@media(max-width:480px){.pasos{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
-<a class="skip" href="#auditoria">Saltar al formulario</a>
+<a class="skip" href="#contacto">Saltar al contacto</a>
 
 <header>
   <div class="wrap nav">
-    <a class="logo" href="#">LUCVEX<span>.</span></a>
+    <a class="marca" href="#inicio" aria-label="Lucvex IA, inicio"><img src="img/lucvex-icono.svg" alt="" width="34" height="34"><b>Lucvex <span>IA</span></b></a>
     <ul>
-      <li><a href="#solucion">Solución</a></li>
-      <li><a href="#packs">Equipamiento</a></li>
-      <li><a href="#planes">Planes</a></li>
-      <li><a href="#auditoria">Auditoría</a></li>
+      <li><a href="#metodo">Cómo trabajamos</a></li>
+      <li><a href="#soluciones">Soluciones</a></li>
+      <li><a href="#medida">A medida</a></li>
+      <li><a href="#contacto">Contacto</a></li>
     </ul>
-    <a class="btn btn-d btn-sm" href="#auditoria">Solicitar auditoría</a>
+    <a class="btn peq" data-wa="Hola, me gustaría pedir una auditoría para mi empresa." href="https://wa.me/34654980755">Pedir auditoría</a>
   </div>
 </header>
 
-<main>
-<section class="hero">
-  <div class="wrap">
-    <div>
-      <span class="kicker">Para restaurantes y bares</span>
-      <h1>No pierdas ni una llamada en hora punta. <em>Sin comisiones por pedido.</em></h1>
-      <p class="lead">Un agente de voz con IA que atiende el teléfono y apunta las reservas las 24 horas, y un comandero digital que manda cada plato a cocina y cada bebida a barra. Tú te quedas con tu margen: el dinero de tus cobros va directo a tu cuenta.</p>
-      <div class="cta">
-        <a class="btn btn-p" href="#auditoria">Solicitar auditoría gratuita</a>
-        <a class="btn btn-s" data-wa href="https://wa.me/34651943523">Hablar por WhatsApp</a>
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap">
+      <p class="etiqueta">Automatización e inteligencia artificial</p>
+      <h1>Simplifica,<br>automatiza, <em>fluye.</em></h1>
+      <p class="lead">Lucvex IA desarrolla aplicaciones escalables, consultoría y automatización. Empezamos siempre por entender cómo trabajas: detectamos lo que frena a tu empresa y lo convertimos en procesos que fluyen solos.</p>
+      <div class="acciones">
+        <a class="btn" data-wa="Hola, me gustaría pedir una auditoría para mi empresa." href="https://wa.me/34654980755">Pedir una auditoría</a>
+        <a class="btn sec" href="#soluciones">Ver soluciones</a>
       </div>
-      <div class="proof"><span>14 días de prueba, sin tarjeta</span><span>Plan básico gratis</span><span>Cobros directos a tu Stripe</span></div>
+      <div class="flujo" aria-hidden="true"><b></b><i></i><b></b><i></i><b></b><i></i><b></b></div>
     </div>
-    <div class="mock" aria-hidden="true">
-      <div class="card call">
-        <div class="call-h"><span>Llamada entrante · 14:07</span><span class="live">En curso</span></div>
-        <div class="bub c">Hola, ¿tenéis mesa para cuatro esta noche a las nueve?</div>
-        <div class="bub a">Sí, a las 21:00 tengo mesa libre para cuatro. ¿A nombre de quién la apunto?</div>
-        <div class="bub c">A nombre de Marta.</div>
-        <div class="bub a">Perfecto, Marta. Reserva anotada. Te llegará la confirmación por mensaje.</div>
-      </div>
-      <div class="tick">
-        <div class="card ticket"><b>Cocina</b>MESA 4 · 14:12<hr>2 × Croquetas<br>1 × Chuletón<br>1 × Ensalada<hr>sin gluten: 1</div>
-        <div class="card ticket"><b>Barra</b>MESA 4 · 14:12<hr>2 × Caña<br>1 × Tinto<br>1 × Agua con gas<hr>&nbsp;</div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="alt" id="problema">
-  <div class="wrap">
-    <p class="eyebrow">Lo que cuesta no tenerlo</p>
-    <h2>Tres fugas que se repiten en casi todos los locales</h2>
-    <div class="grid g3">
-      <div class="card pain"><div class="ico">📞</div><h3>Llamadas que nadie coge</h3><p>En pleno servicio el teléfono suena y no hay manos. Cada llamada perdida puede ser una reserva que se va a otro sitio.</p></div>
-      <div class="card pain"><div class="ico">🧾</div><h3>Comandas con errores</h3><p>Papelitos, gritos a la cocina y platos que se olvidan. Un error de comanda cuesta más que el sistema que lo evita.</p></div>
-      <div class="card pain"><div class="ico">💸</div><h3>Comisiones por cada pedido</h3><p>Las plataformas se quedan una parte de cada venta. Con Lucvex pagas una cuota fija y los cobros van a tu cuenta.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="solucion">
-  <div class="wrap">
-    <p class="eyebrow">La solución</p>
-    <h2>Dos piezas que funcionan juntas</h2>
-    <p class="sub">Empieza por la que más te duela. Las dos comparten la carta, las mesas y los clientes.</p>
-    <div class="grid g2">
-      <div class="card pillar">
-        <div class="ico">🎙️</div>
-        <h3>Agente de voz</h3>
-        <p>Coge el teléfono con voz natural, responde las dudas habituales del local y apunta las reservas en tu agenda.</p>
-        <ul class="ticks">
-          <li>Atiende reservas y consultas, también fuera de horario</li>
-          <li>Conoce tu horario, tu carta y tus normas</li>
-          <li>Te deja un resumen de cada llamada</li>
-          <li>Si no sabe algo, deja el recado en lugar de inventar</li>
-        </ul>
-        <p class="note">Se activa por local: te confirmamos disponibilidad y cómo conectarlo con tu línea.</p>
-      </div>
-      <div class="card pillar">
-        <div class="ico">🍽️</div>
-        <h3>Comandero digital</h3>
-        <p>Toma la comanda en sala o desde el móvil del cliente y la manda a cocina y barra al instante, con ticket impreso en cada puesto.</p>
-        <ul class="ticks">
-          <li>Los platos salen en cocina y las bebidas en barra, cada una en su impresora</li>
-          <li>Pedido desde la mesa con QR y pago con tarjeta desde el móvil</li>
-          <li>Comanda por voz: el camarero dicta y revisa antes de enviar</li>
-          <li>Cuentas, mesas y clientes en un solo sitio</li>
-        </ul>
-        <p class="note">Los cobros con tarjeta van directos a la cuenta de Stripe del propio restaurante.</p>
+  <section id="metodo" class="alt">
+    <div class="wrap">
+      <p class="etiqueta">Cómo trabajamos</p>
+      <h2>Todo empieza por una auditoría.</h2>
+      <p class="lead">Antes de proponer una herramienta, miramos tus procesos para encontrar dónde se pierde tiempo, dinero o información. Después, en este orden:</p>
+      <div class="pasos">
+        <div class="paso"><span class="n">01</span><h3>Detectamos</h3><p>Auditoría de tus procesos para localizar las ineficiencias reales.</p></div>
+        <div class="paso"><span class="n">02</span><h3>Simplificamos</h3><p>Quitamos pasos, duplicidades y fricción antes de tocar la tecnología.</p></div>
+        <div class="paso"><span class="n">03</span><h3>Automatizamos</h3><p>Aplicamos IA y automatización donde de verdad ahorran trabajo.</p></div>
+        <div class="paso"><span class="n">04</span><h3>Hacemos que fluya</h3><p>Medimos, ajustamos y dejamos el proceso funcionando sin esfuerzo.</p></div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="alt" id="como">
-  <div class="wrap">
-    <p class="eyebrow">Cómo empezar</p>
-    <h2>En marcha sin parar el servicio</h2>
-    <div class="grid g3 steps">
-      <div class="card step"><h3>Auditoría gratuita</h3><p>Nos cuentas cómo trabajas hoy: llamadas, comandas, impresión. Te decimos qué merece la pena y qué no.</p></div>
-      <div class="card step"><h3>Lo dejamos preparado</h3><p>Montamos tu carta (desde una foto, un PDF o tu web) y configuramos cocina, barra y, si lo quieres, el agente de voz.</p></div>
-      <div class="card step"><h3>14 días gratis</h3><p>Lo pruebas en tu local sin tarjeta. Si no te encaja, el plan básico sigue siendo gratis.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="packs">
-  <div class="wrap">
-    <p class="eyebrow">Equipamiento opcional</p>
-    <h2>Si te falta impresora o tablet, te lo damos montado</h2>
-    <p class="sub">Tres packs con el material ya probado con el sistema. Precios orientativos: te confirmamos modelo e instalación por escrito.</p>
-    <div class="grid g3">
-      <div class="card pack">
-        <h3>Esencial</h3><p class="for">Barra y locales pequeños</p>
-        <div class="price"><small>unos </small>200 €</div>
-        <ul class="ticks"><li>Impresora de tickets 80 mm Bluetooth</li><li>Tablet de 9"</li><li>Un puesto: cocina o barra</li></ul>
-      </div>
-      <div class="card pack feat">
-        <span class="tag">Recomendado para cocina y barra</span>
-        <h3>Profesional</h3><p class="for">Cocina y barra con más volumen</p>
-        <div class="price"><small>unos </small>350 €</div>
-        <ul class="ticks"><li>Impresora de 80 mm por red (cable o wifi)</li><li>Tablet de 11"</li><li>Conexión estable aunque haya mucho movimiento</li></ul>
-      </div>
-      <div class="card pack">
-        <h3>Reforzado · KDS</h3><p class="for">Cocinas exigentes</p>
-        <div class="price"><small>unos </small>500 €</div>
-        <ul class="ticks"><li>Impresora industrial con avisador acústico</li><li>Tablet resistente</li><li>Pensado para calor, grasa y ruido</li></ul>
+  <section id="soluciones">
+    <div class="wrap">
+      <p class="etiqueta">Soluciones</p>
+      <h2>Una marca, una solución por sector.</h2>
+      <p class="lead">Aplicaciones propias para sectores concretos, construidas sobre la misma forma de trabajar.</p>
+      <div class="cards">
+        <article class="card">
+          <span class="tag ok">Disponible</span>
+          <h3>Hostelería · Comandero-IA</h3>
+          <p>Más que un comandero, un gestor de hostelería: comandas por voz, asistentes de IA para sala, cocina y gerencia, reservas y pedidos online.</p>
+          <a class="mas" href="https://comandero.lucvex.com">Conocer Comandero-IA →</a>
+        </article>
+        <article class="card">
+          <span class="tag">Próximamente</span>
+          <h3>Seguros</h3>
+          <p>Automatización e IA para el sector asegurador.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Próximamente</span>
+          <h3>Asistencia al hogar · Asistencia Exprés</h3>
+          <p>Asistencia al hogar más ágil, desde la solicitud hasta la resolución.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Próximamente</span>
+          <h3>Salud</h3>
+          <p>Soluciones digitales con IA para el sector salud.</p>
+        </article>
       </div>
     </div>
-    <p class="fine">No es obligatorio comprar un pack: el comandero funciona con las impresoras y tablets que ya tengas. Sin plazos ni descuentos prometidos aquí; te los confirmamos por escrito.</p>
-  </div>
-</section>
+  </section>
 
-<section class="alt" id="planes">
-  <div class="wrap">
-    <p class="eyebrow">Software</p>
-    <h2>Precios claros, sin sorpresas</h2>
-    <p class="sub">Cuota mensual fija. Sin comisión por pedido ni por reserva.</p>
-    <div class="grid g4">
-      <div class="card plan"><h3>Básico</h3><div class="p">0 €</div><p>Carta digital, comanda de sala, envío a cocina y cierre de cuentas.</p></div>
-      <div class="card plan"><h3>Pro</h3><div class="p">29 € <small>/mes</small></div><p>Pantallas de cocina y barra, acceso por QR del personal y comanda por voz.</p></div>
-      <div class="card plan"><h3>Growth</h3><div class="p">59 € <small>/mes</small></div><p>Pedido desde la mesa, delivery y recogida, filtro de reseñas y menú del día.</p></div>
-      <div class="card plan"><h3>Elite</h3><div class="p">99 € <small>/mes</small></div><p>Gestión de clientes, sugerencias según el tiempo y asistentes con IA.</p></div>
-    </div>
-    <p class="fine">Precios de lista. IVA, factura y condiciones te las confirmamos por escrito.</p>
-  </div>
-</section>
-
-<section class="dark" id="auditoria">
-  <div class="wrap aud">
-    <div>
-      <p class="eyebrow">Auditoría gratuita</p>
-      <h2>Cuéntanos cómo trabajas y te decimos qué te conviene</h2>
-      <p class="sub">Sin compromiso. Revisamos tus llamadas, tus comandas y tu impresión, y te proponemos lo justo.</p>
+  <section id="medida" class="alt">
+    <div class="wrap medida">
+      <div>
+        <p class="etiqueta">Servicios a medida</p>
+        <h2>También trabajamos con tu empresa.</h2>
+        <p class="lead">Además de nuestras soluciones, ofrecemos auditoría y desarrollo de aplicaciones personalizadas para empresas concretas.</p>
+      </div>
       <ul>
-        <li>Respuesta en horario laboral, normalmente el mismo día</li>
-        <li>Te decimos qué NO necesitas, además de qué sí</li>
-        <li>Sin tarjeta, sin permanencia</li>
+        <li><b>Auditoría de procesos.</b> Un diagnóstico claro de dónde está la ineficiencia y qué conviene resolver primero.</li>
+        <li><b>Aplicaciones a medida.</b> Software diseñado para tu operativa y preparado para crecer contigo.</li>
+        <li><b>Automatización con IA.</b> Flujos que conectan tus herramientas y eliminan el trabajo repetitivo.</li>
+        <li><b>Consultoría.</b> Acompañamiento para decidir, implantar y mantener lo que funciona.</li>
       </ul>
     </div>
-    <div>
-      <form class="form" id="f" novalidate>
-        <div id="fcampos">
-          <div class="row">
-            <div><label for="nombre">Tu nombre</label><input id="nombre" name="nombre" autocomplete="name" required maxlength="100"></div>
-            <div><label for="rest">Restaurante</label><input id="rest" name="restaurante" autocomplete="organization" maxlength="160"></div>
-          </div>
-          <div class="row">
-            <div><label for="email">Correo <small>(o teléfono)</small></label><input id="email" name="email" type="email" autocomplete="email" maxlength="160"></div>
-            <div><label for="tel">Teléfono <small>(o correo)</small></label><input id="tel" name="telefono" type="tel" autocomplete="tel" maxlength="40"></div>
-          </div>
-          <label for="int">¿Qué te interesa más?</label>
-          <select id="int" name="interes">
-            <option value="no_se">Aún no lo sé</option>
-            <option value="voz">Agente de voz (llamadas y reservas)</option>
-            <option value="comandero">Comandero digital (comandas e impresión)</option>
-            <option value="ambos">Las dos cosas</option>
-          </select>
-          <label for="msg">Cuéntanos tu caso <small>(opcional)</small></label>
-          <textarea id="msg" name="mensaje" maxlength="1000" placeholder="Por ejemplo: perdemos llamadas a mediodía y la cocina recibe las comandas a gritos."></textarea>
-          <div class="hp" aria-hidden="true"><label>No rellenar<input name="empresa_web" tabindex="-1" autocomplete="off"></label></div>
-          <label class="chk"><input type="checkbox" id="ok" name="consentimiento" required><span>Acepto que Lucvex use estos datos para responder a mi solicitud. <a href="legal.html#privacidad" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>
-          <button class="btn btn-p" type="submit" id="enviar">Solicitar auditoría gratuita</button>
-          <div class="msg" id="err" role="alert"></div>
-          <p class="priv">Tus datos no se venden ni se ceden. Puedes pedir que los borremos escribiendo a <a href="mailto:hola@lucvex.com">hola@lucvex.com</a>.</p>
-        </div>
-        <div class="ok-box" id="gracias" role="status" aria-live="polite">
-          <div class="big">✅</div>
-          <h3>¡Recibido!</h3>
-          <p>Te escribiremos en breve. Si prefieres ir más rápido, abre WhatsApp y te contestamos por ahí.</p>
-          <a class="btn btn-p" data-wa href="https://wa.me/34651943523">Continuar por WhatsApp</a>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="wrap">
-    <div class="who">
-      <div class="av">RV</div>
-      <p><strong>Randall Vargas</strong> está detrás de Lucvex. Es consultor e integrador tecnológico, y trabaja con cada restaurante para dejar justo lo que necesita: sin vender de más y con una persona real al otro lado cuando algo falla.</p>
+  <section id="contacto" class="contacto">
+    <div class="wrap">
+      <p class="etiqueta">Contacto</p>
+      <h2>Cuéntanos cómo trabajas.</h2>
+      <p class="lead">Escríbenos y te proponemos una primera auditoría. Sin compromiso.</p>
+      <div class="datos">
+        <a class="btn" data-wa="Hola, me gustaría pedir una auditoría para mi empresa." href="https://wa.me/34654980755">Escribir por WhatsApp</a>
+        <a class="btn sec" href="mailto:hola@lucvex.com">hola@lucvex.com</a>
+      </div>
+      <p class="fino">Segovia, España · Trabajamos con empresas de toda España.</p>
     </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div>© 2026 Lucvex AI Operations · Segovia, España · <a href="mailto:hola@lucvex.com">hola@lucvex.com</a></div>
-    <div><a href="legal.html#aviso">Aviso legal</a> · <a href="legal.html#privacidad">Privacidad</a> · <a href="https://comandero-ia.lucvex.com/">Acceso clientes</a></div>
+    <div>© 2026 Lucvex IA · Segovia, España · <a href="mailto:hola@lucvex.com">hola@lucvex.com</a></div>
+    <div><a href="legal.html#aviso">Aviso legal</a> · <a href="legal.html#privacidad">Privacidad</a></div>
   </div>
 </footer>
 
-<a id="wa" data-wa href="https://wa.me/34651943523" aria-label="Escribir por WhatsApp">
-  <b aria-hidden="true">💬</b>
-  <span>WhatsApp</span>
-</a>
-
 <script>
 (function () {
-  "use strict";
-  var API = "https://comandero-ia.lucvex.com";
-  var WA = "34651943523";
-  var TOKEN = /^[A-Za-z0-9_-]{8,40}$/;
-  var t0 = Date.now();
-  var ref = null;
-
-  function guardar(k, v) { try { sessionStorage.setItem(k, v); } catch (e) {} }
-  function leer(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }
-
-  // 1) Token del prospecto: la cookie httpOnly (la pone el enlace /r/…) es lo fiable; ?p= de la URL es el respaldo.
-  var q = new URLSearchParams(location.search);
-  var deUrl = q.get("p");
-  if (deUrl && TOKEN.test(deUrl)) { ref = deUrl; guardar("lx_p", deUrl); }
-  else { var g = leer("lx_p"); if (g && TOKEN.test(g)) ref = g; }
-  // Se limpia el token de la barra de direcciones para que no se copie ni se comparta sin querer.
-  if (q.has("p")) { q.delete("p"); var rest = q.toString(); history.replaceState(null, "", location.pathname + (rest ? "?" + rest : "") + location.hash); }
-
-  function waLink(texto) {
-    var t = texto + (ref ? " (ref " + ref + ")" : "");
-    return "https://wa.me/" + WA + "?text=" + encodeURIComponent(t);
-  }
-  function pintarWa() {
-    var els = document.querySelectorAll("[data-wa]");
-    for (var i = 0; i < els.length; i++) {
-      els[i].href = waLink("Hola, quiero información sobre Comandero-IA para mi restaurante.");
-      els[i].setAttribute("target", "_blank"); els[i].setAttribute("rel", "noopener");
-    }
-  }
-  pintarWa();
-
-  function post(ruta, cuerpo) {
-    return fetch(API + ruta, { method: "POST", credentials: "include", headers: { "Content-Type": "application/json" }, body: JSON.stringify(cuerpo) });
-  }
-
-  // 2) Confirma el token con la cookie del servidor, registra la visita (una vez por sesión) y actualiza los enlaces de WhatsApp.
-  fetch(API + "/api/landing/ref" + (ref ? "?p=" + encodeURIComponent(ref) : ""), { credentials: "include" })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (j) {
-      if (j && j.ref) { ref = j.ref; guardar("lx_p", ref); pintarWa(); }
-      if (ref && !leer("lx_visita")) { guardar("lx_visita", "1"); post("/api/landing/evento", { evento: "visita", p: ref }).catch(function () {}); }
-    })
-    .catch(function () {});
-
-  // 3) Clic en WhatsApp: se avisa al backend (sin esperar) y se abre el chat con la referencia.
-  document.addEventListener("click", function (e) {
-    var a = e.target.closest && e.target.closest("[data-wa]");
-    if (a && ref) post("/api/landing/evento", { evento: "click_whatsapp", p: ref }).catch(function () {});
-  });
-
-  // El botón flotante se esconde mientras el formulario está en pantalla para no taparlo.
-  if ("IntersectionObserver" in window) {
-    var flot = document.getElementById("wa");
-    new IntersectionObserver(function (en) { flot.style.display = en[0].isIntersecting ? "none" : ""; }, { threshold: 0.15 }).observe(document.getElementById("auditoria"));
-  }
-
-  // 4) Formulario nativo.
-  var f = document.getElementById("f"), err = document.getElementById("err"), btn = document.getElementById("enviar");
-  function error(t) { err.textContent = t; err.className = "msg e"; }
-  f.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    err.className = "msg"; err.textContent = "";
-    var d = new FormData(f);
-    var nombre = (d.get("nombre") || "").trim(), email = (d.get("email") || "").trim(), tel = (d.get("telefono") || "").trim();
-    if (nombre.length < 2) return error("Dinos tu nombre.");
-    if (!email && !tel) return error("Déjanos un correo o un teléfono para poder responderte.");
-    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return error("Revisa el correo: no parece válido.");
-    if (!document.getElementById("ok").checked) return error("Marca la casilla de consentimiento para poder enviarlo.");
-    btn.disabled = true; btn.textContent = "Enviando…";
-    post("/api/landing/formulario", {
-      nombre: nombre, restaurante: (d.get("restaurante") || "").trim() || null, email: email || null, telefono: tel || null,
-      interes: d.get("interes") || null, mensaje: (d.get("mensaje") || "").trim() || null, consentimiento: true,
-      p: ref, empresa_web: d.get("empresa_web") || "", t: Date.now() - t0
-    }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, j: j }; }); })
-      .then(function (x) {
-        if (!x.ok) { error((x.j && x.j.error) || "No hemos podido enviarlo. Escríbenos por WhatsApp."); btn.disabled = false; btn.textContent = "Solicitar auditoría gratuita"; return; }
-        document.getElementById("fcampos").style.display = "none";
-        document.getElementById("gracias").className = "ok-box on";
-      })
-      .catch(function () { error("No hemos podido conectar. Inténtalo de nuevo o escríbenos por WhatsApp."); btn.disabled = false; btn.textContent = "Solicitar auditoría gratuita"; });
+  // Los botones de WhatsApp llevan el mensaje inicial según el botón pulsado.
+  document.querySelectorAll("a[data-wa]").forEach(function (a) {
+    a.href = "https://wa.me/34654980755?text=" + encodeURIComponent(a.getAttribute("data-wa"));
   });
 })();
 </script>
