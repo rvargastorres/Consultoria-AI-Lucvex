@@ -62,6 +62,10 @@ h2{font-size:clamp(1.7rem,3.6vw,2.4rem);line-height:1.15;letter-spacing:-.025em;
 .flujo b{width:11px;height:11px;border-radius:50%;background:var(--acento);flex:none}
 .flujo b:first-child{background:var(--linea)}
 @keyframes fluir{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.foto{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radio);box-shadow:var(--sombra);background:var(--velo)}
+.hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+.hero-grid .flujo{margin-top:44px}
+.foto-col .foto{margin-bottom:20px}
 /* esencia */
 .esencia{display:grid;grid-template-columns:repeat(4,1fr);margin-top:46px;border-top:1px solid var(--linea)}
 .esencia div{padding:26px 24px 8px 0}
@@ -133,7 +137,7 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
   .esencia div:nth-child(n+3){border-top:1px solid var(--linea);margin-top:18px}
   .paso:nth-child(3){padding-left:0;border-left:0}.paso:nth-child(n+3){margin-top:30px}
   .atributos{grid-template-columns:1fr 1fr}
-  .panel-grid{grid-template-columns:1fr;gap:28px}
+  .panel-grid,.hero-grid{grid-template-columns:1fr;gap:28px}
   .nav ul{display:none}
   section{padding:68px 0}.hero{padding:68px 0 52px}
 }
@@ -176,7 +180,8 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
 
 <main id="inicio">
   <section class="hero">
-    <div class="wrap">
+    <div class="wrap hero-grid">
+      <div>
       <p class="etiqueta">Automatización e inteligencia artificial</p>
       <h1>Simplifica,<br>automatiza, <em>fluye.</em></h1>
       <p class="lead">Lucvex IA convierte lo que frena a tu empresa en procesos que fluyen solos. Empezamos por entender cómo trabajas y construimos soluciones web instantáneas: se abren desde el navegador, sin descargar nada.</p>
@@ -185,6 +190,8 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
         <a class="btn sec" href="https://lab.lucvex.com/?demo=1&amp;vista=camarero" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg>Ver demo interactiva</a>
       </div>
       <div class="flujo" aria-hidden="true"><b></b><i></i><b></b><i></i><b></b><i></i><b></b></div>
+      </div>
+      <img class="foto" src="img/portada.jpg" width="1600" height="914" alt="Hilos de luz que fluyen y se conectan sin fricción" fetchpriority="high">
     </div>
   </section>
 
@@ -245,6 +252,7 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
             <p class="demo-nota" id="demo-nota" aria-live="polite"></p>
           </div>
           <div>
+            <img class="foto" src="img/hosteleria.jpg" width="1600" height="914" loading="lazy" alt="Tablet con la interfaz de Comandero-IA en un local de hostelería" style="aspect-ratio:21/9">
             <span class="estado ok">Disponible</span>
             <h3>Comandero-IA, el gestor de hostelería</h3>
             <p class="t">Más que un comandero: comandas por voz, asistentes de IA para sala, cocina y gerencia, reservas, pedidos online y el teléfono y el WhatsApp atendidos mientras sirves.</p>
@@ -263,24 +271,39 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
       </div>
 
       <div class="panel" role="tabpanel" id="p-seguros" aria-labelledby="t-seguros" hidden>
+        <div class="panel-grid">
+          <div>
         <span class="estado">Próximamente</span>
         <h3>Seguros</h3>
         <p class="t">Una solución web instantánea para el sector asegurador, pensada para ahorrar gestiones repetitivas a mediadores y aseguradoras. Estamos preparándola.</p>
         <div class="acciones"><a class="btn wa" data-wa="Hola, me interesa la solución de Lucvex IA para seguros." href="https://wa.me/34654980755"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Quiero saber más</a></div>
+          </div>
+          <img class="foto" src="img/seguros.jpg" width="1600" height="914" loading="lazy" alt="Documentos digitales sellados por un escudo">
+        </div>
       </div>
 
       <div class="panel" role="tabpanel" id="p-hogar" aria-labelledby="t-hogar" hidden>
+        <div class="panel-grid">
+          <div>
         <span class="estado">Próximamente</span>
         <h3>Asistencia al hogar · Asistencia Exprés</h3>
         <p class="t">Asistencia al hogar más ágil: de la solicitud del cliente a la resolución, en un único flujo. Estamos preparándola.</p>
         <div class="acciones"><a class="btn wa" data-wa="Hola, me interesa Asistencia Exprés de Lucvex IA." href="https://wa.me/34654980755"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Quiero saber más</a></div>
+          </div>
+          <img class="foto" src="img/hogar.jpg" width="1600" height="914" loading="lazy" alt="Móvil con tareas del hogar organizadas">
+        </div>
       </div>
 
       <div class="panel" role="tabpanel" id="p-salud" aria-labelledby="t-salud" hidden>
+        <div class="panel-grid">
+          <div>
         <span class="estado">Próximamente</span>
         <h3>Salud</h3>
         <p class="t">Soluciones digitales con IA para el sector salud, centradas en la organización y la comunicación. Estamos preparándola.</p>
         <div class="acciones"><a class="btn wa" data-wa="Hola, me interesa la solución de Lucvex IA para el sector salud." href="https://wa.me/34654980755"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Quiero saber más</a></div>
+          </div>
+          <img class="foto" src="img/salud.jpg" width="1600" height="914" loading="lazy" alt="Línea de pulso y formas suaves que transmiten bienestar">
+        </div>
       </div>
 
       <div class="panel" role="tabpanel" id="p-auditorias" aria-labelledby="t-auditorias" hidden>
@@ -299,6 +322,8 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
               <a class="btn sec" href="mailto:hola@lucvex.com?subject=Auditor%C3%ADa%20de%20procesos">Escribir por correo</a>
             </div>
           </div>
+          <div class="foto-col">
+            <img class="foto" src="img/auditorias.jpg" width="1600" height="914" loading="lazy" alt="Una lupa que convierte un nudo de hilos en líneas fluidas">
           <div class="recibes">
             <h4>Qué recibes</h4>
             <ul>
@@ -307,6 +332,7 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
               <li>Un plan de mejora con pasos concretos.</li>
               <li>Una recomendación honesta de qué automatizar y qué no.</li>
             </ul>
+          </div>
           </div>
         </div>
       </div>
