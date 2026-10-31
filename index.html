@@ -591,8 +591,8 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
   var lanza = document.getElementById("lanza"), chat = document.getElementById("chat"), msgs = document.getElementById("msgs"), sug = document.getElementById("sug");
   var formChat = document.getElementById("form-chat"), texto = document.getElementById("texto"), formDatos = document.getElementById("form-datos");
   var historial = [], ocupado = false, leer = false;
-  var SALUDO = "Hola, soy Mateo, el asistente virtual de Lucvex IA (una IA, no una persona). Cuéntame qué tarea os quita más tiempo y te hago una estimación del ahorro, o resuelvo tus dudas sobre automatizaciones y auditorías.";
-  var SUGERENCIAS = ["¿Qué es una auditoría?", "¿Qué puedo automatizar?", "Calcula mi ahorro", "Quiero una cita"];
+  var SALUDO = "Hola, soy Mateo, el asistente virtual de Lucvex IA (una IA, no una persona), una empresa especializada en automatización e inteligencia artificial. ¿Qué tipo de negocio tienes y qué te gustaría mejorar?";
+  var SUGERENCIAS = ["Tengo un restaurante o bar", "¿Qué es Comandero-IA?", "Quiero automatizar mi empresa", "Quiero una cita"];
 
   function guardar() { try { sessionStorage.setItem("lx_chat", JSON.stringify(historial.slice(-12))); } catch (e) {} }
   function cargar() { try { var h = JSON.parse(sessionStorage.getItem("lx_chat") || "[]"); if (Array.isArray(h)) historial = h; } catch (e) {} }
