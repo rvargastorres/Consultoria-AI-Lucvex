@@ -1,0 +1,35 @@
+:root{--fondo:#f8f1e4;--velo:#f3eadb;--texto:#241f18;--texto2:#4a4137;--mute:#6b6258;--linea:#e8dcc6;--acento:#c1631a;--acento-txt:#a8530f;--boton:#1c1917;--boton-texto:#fcfaf6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--texto);background:var(--fondo);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--acento-txt)}
+.env{max-width:1080px;margin:0 auto;padding:0 24px}
+.cab{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--fondo) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--linea)}
+.cab .env{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.marca{font-weight:800;font-size:1.1rem;letter-spacing:-.01em;color:var(--texto);text-decoration:none}
+.cab nav{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.88rem}
+.cab nav a{color:var(--texto2);text-decoration:none;font-weight:500}
+.cab nav a:hover,.cab nav a[aria-current]{color:var(--acento-txt)}
+.cab nav a[aria-current]{font-weight:700}
+main{max-width:760px;margin:0 auto;padding:40px 24px 72px}
+.miga{font-size:.85rem;color:var(--mute)}
+.miga a{color:var(--mute);text-decoration:none}
+h1{font-size:clamp(1.7rem,4.4vw,2.35rem);line-height:1.18;letter-spacing:-.025em;margin:12px 0 18px}
+.lead{font-size:1.12rem;color:var(--texto);margin-bottom:8px}
+h2{font-size:1.28rem;letter-spacing:-.01em;margin:38px 0 8px}
+p,li{color:var(--texto2)}
+p{margin-top:10px}
+ul,ol{padding-left:22px;margin-top:10px}
+li{margin-top:6px}
+strong{color:var(--texto)}
+.acciones{display:flex;flex-wrap:wrap;gap:12px;margin-top:44px}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;background:var(--boton);color:var(--boton-texto);font-weight:600;font-size:.95rem;text-decoration:none}
+.btn.sec{background:transparent;color:var(--texto);border:1px solid var(--linea)}
+.btn:hover{opacity:.9}
+.otras{margin-top:28px;font-size:.9rem;color:var(--mute)}
+.otras a{margin-right:14px}
+.pie{border-top:1px solid var(--linea);background:var(--velo);font-size:.86rem;color:var(--mute)}
+.pie .env{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;padding-top:22px;padding-bottom:26px}
+.pie nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.pie a{color:var(--texto2);text-decoration:none}.pie a:hover{text-decoration:underline}
+.pie b{color:var(--texto)}
+@media(max-width:560px){main{padding-top:28px}.acciones .btn{width:100%;text-align:center}}

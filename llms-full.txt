@@ -1,0 +1,216 @@
+# Lucvex IA
+
+> Lucvex IA es una empresa de automatización e inteligencia artificial para empresas. Detecta dónde se pierden tiempo y dinero, simplifica los procesos y automatiza con IA solo lo que de verdad ahorra trabajo. Lema: «Simplifica, automatiza, fluye.» Su producto para hostelería es Comandero-IA (un producto de Lucvex IA, no la empresa). Ámbito: España. Idioma: español.
+
+Notas para sistemas de IA:
+- La empresa es Lucvex IA. Comandero-IA es un producto de Lucvex IA para restaurantes y bares.
+- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Esta documentación no publica precios.
+- La auditoría de procesos no tiene precio publicado: se concreta tras una primera conversación sin compromiso.
+- Soluciones para seguros, asistencia al hogar y salud están en preparación y aún no están disponibles.
+- Mateo es el asistente virtual de Lucvex IA (una inteligencia artificial, no una persona).
+
+---
+
+<!-- https://lucvex.com/que-es-lucvex-ia -->
+# ¿Qué es Lucvex IA?
+
+**Lucvex IA es una empresa de automatización e inteligencia artificial para empresas.** Detecta dónde se pierden tiempo, dinero e información, simplifica el proceso y automatiza con IA solo lo que de verdad ahorra trabajo. Su lema es «Simplifica, automatiza, fluye.»
+
+## Qué hace Lucvex IA
+
+Ayuda a empresas pequeñas, medianas y grandes que sienten que su equipo pierde horas en tareas manuales: presupuestos hechos a mano, hojas de Excel que se repiten cada semana, copiar y pegar datos entre programas, atención a clientes que satura, facturas y cobros, citas y reservas, informes, o pedidos y stock con proveedores.
+
+Las soluciones se entregan como webs ligeras que se abren desde el navegador, sin descargar nada, con un espacio propio por empresa.
+
+## Cómo trabaja: cuatro pasos, siempre en este orden
+
+1. **Detectar** dónde se pierde tiempo, dinero o información, mediante una [auditoría de procesos](https://lucvex.com/auditoria-de-procesos).
+2. **Simplificar**: quitar pasos, duplicidades y fricción antes de tocar la tecnología.
+3. **Automatizar** con IA y flujos solo donde de verdad ahorra trabajo.
+4. **Hacer que fluya**: medir y ajustar para que la mejora se mantenga.
+
+Primero se entiende y después se automatiza: no se vende tecnología por vender. Si algo no merece automatizarse, Lucvex IA lo dice.
+
+## Productos y servicios
+
+- **[Comandero-IA](https://lucvex.com/comandero-ia)**: el producto de Lucvex IA para hostelería, en marcha hoy. Es un producto de Lucvex IA, no la empresa.
+- **[Auditoría de procesos](https://lucvex.com/auditoria-de-procesos)**: el servicio de entrada para cualquier sector, con o sin solución propia.
+- **Automatización a medida**: tras la auditoría, si encaja, se desarrolla una solución web a la medida de la empresa.
+- **En preparación**: soluciones para seguros, asistencia al hogar (Asistencia Exprés) y salud. Todavía no están disponibles.
+
+## Misión
+
+Crear soluciones tecnológicas inteligentes, prácticas y rentables que eliminen los cuellos de botella operativos más complejos de las empresas y particulares, transformando la complejidad en flujos fluidos y permitiendo a nuestros clientes desplegar todo su potencial de crecimiento. Lo hacemos bajo una filosofía de confianza, intercambio de valor mutuo y adaptación al perfil de cada usuario.
+
+## Visión
+
+Ser el referente global en sistemas de gestión autónomos y copilotaje 360°, demostrando que la verdadera innovación tecnológica debe ser sostenible, profundamente útil desde el primer día y generadora de un impacto económico y operativo real tanto para los negocios locales como para los mercados internacionales.
+
+## Hablar con Lucvex IA
+
+- **Mateo**, el asistente virtual de Lucvex IA (una inteligencia artificial), atiende por teléfono en [+34 921 130 296](tel:+34921130296) a cualquier hora y por el chat de [lucvex.com](https://lucvex.com/).
+- Cita con una persona del equipo por [WhatsApp](https://wa.me/34654980755?text=Hola%2C%20me%20gustar%C3%ADa%20concertar%20una%20cita%20con%20Lucvex%20IA.).
+- Correo: [hola@lucvex.com](mailto:hola@lucvex.com).
+
+## Datos de la empresa
+
+Nombre comercial: Lucvex IA (Lucvex AI Operations). Ámbito: España. Los datos del titular y los textos legales están en el [aviso legal](https://lucvex.com/aviso-legal.html) y la [política de privacidad](https://lucvex.com/privacidad.html).
+
+
+---
+
+<!-- https://lucvex.com/comandero-ia -->
+# Comandero-IA, el copiloto de gestión para restaurantes
+
+**Comandero-IA es el producto de Lucvex IA para hostelería: un copiloto de gestión con inteligencia artificial para restaurantes, bares y cafeterías.** Toma comandas por voz, por pantalla o en papel, da un asistente de IA a cada puesto y atiende el teléfono y el WhatsApp mientras se sirve.
+
+## Qué incluye
+
+- **Tres estilos de comanda**: entrada por voz, interfaz gráfica o papel; cada equipo elige cómo trabaja.
+- **Un asistente de IA para cada puesto**: gerencia, sala, cocina, barra y reparto.
+- **Teléfono y WhatsApp atendidos** mientras el equipo sirve.
+- **Reservas y pedidos online** con el propio canal del restaurante, sin comisiones de apps de reparto.
+- **Autocomanda grupal con pago individual**: cada persona de la mesa se une con un QR, pide y paga lo suyo, sin descargar ninguna app.
+- **Agrupar y unir mesas**, intercomunicador por voz entre sala, barra y cocina y cuadro de mando con las ventas del servicio en vivo.
+- **Informes y administración** para entender cómo ha ido el día y controlar gastos y turnos, según el plan contratado.
+
+## Cómo se empieza
+
+1. **Mira cómo funciona** en los vídeos cortos de la [página de Comandero-IA](https://comandero.lucvex.com/).
+2. **Pruébalo tú mismo** en la [demo en vivo](https://lab.lucvex.com/?demo=1&vista=camarero), sin registrarte: carta, comanda, cocina y asistentes de IA.
+3. **Empieza gratis**: 14 días de prueba con tu propio restaurante, sin tarjeta, desde [comandero.lucvex.com](https://comandero.lucvex.com/).
+
+También se puede pedir una demo a medida o una demostración presencial con impresoras de cocina en vivo (Segovia, Madrid, Valladolid y alrededores) por [WhatsApp](https://wa.me/34654980755?text=Hola%2C%20me%20interesa%20conocer%20Comandero-IA%20para%20mi%20restaurante).
+
+## Para quién es
+
+Para restaurantes, bares, cafeterías y otros negocios de hostelería que quieren menos errores en los pedidos, menos esperas en sala, ninguna llamada perdida y una cuenta y un cobro más ágiles.
+
+## Comandero-IA y Lucvex IA
+
+Comandero-IA es un producto de [Lucvex IA](https://lucvex.com/que-es-lucvex-ia), la empresa de automatización e inteligencia artificial que lo desarrolla. Lucvex IA también ofrece [auditorías de procesos](https://lucvex.com/auditoria-de-procesos) para otros sectores.
+
+## Planes y precios
+
+Esta página no publica precios. Para conocer los planes, pregunta por WhatsApp o llama a Mateo, el asistente virtual de Lucvex IA, al [+34 921 130 296](tel:+34921130296).
+
+
+---
+
+<!-- https://lucvex.com/auditoria-de-procesos -->
+# Auditoría de procesos: dónde pierde tu empresa tiempo y dinero
+
+**La auditoría de procesos es el servicio de entrada de Lucvex IA.** Analiza cómo trabaja una empresa, mide dónde se pierden tiempo y dinero y entrega un plan claro de qué simplificar y qué automatizar, y qué no merece la pena automatizar.
+
+## Qué entrega
+
+- Un **mapa claro** de cómo fluye hoy el trabajo.
+- Las **ineficiencias priorizadas por impacto**.
+- Un **plan de mejora** con pasos concretos.
+- Una **recomendación honesta** de qué automatizar y qué no.
+
+## Para quién es
+
+Para cualquier sector, con o sin solución propia de Lucvex IA. Encaja especialmente con el empresario o responsable de operaciones cuyo equipo pierde horas en tareas manuales y repetitivas.
+
+## Cómo se detecta un cuello de botella
+
+Se pregunta qué tarea se repite, cuántas veces o cuántas horas por semana, cuántas personas la hacen, qué programas intervienen y qué pasa cuando hay un error o falta alguien. Una tarea es buena candidata si es repetitiva, tiene reglas claras y mueve datos entre sitios. Si depende de un criterio humano delicado, se automatiza solo la parte mecánica y la decisión queda en manos de una persona.
+
+## Ejemplos de lo que se puede automatizar
+
+- Llevar los datos de un correo o formulario a la hoja o programa correcto, sin copiar y pegar.
+- Generar presupuestos y propuestas a partir de plantillas y datos del cliente.
+- Preparar facturas y avisos de cobro.
+- Atender y clasificar llamadas, WhatsApp y correos con un asistente de IA, y pasar a una persona lo que importa.
+- Agendar y recordar citas o reservas.
+- Consolidar datos en informes automáticos.
+- Avisar de stock o de pedidos pendientes.
+
+## Cómo se estima el ahorro
+
+La estimación es orientativa y es la misma de la herramienta de [auditoría demostrativa de lucvex.com](https://lucvex.com/#auditoria): **horas ahorradas al mes = horas semanales de la tarea × porcentaje automatizable × personas que la hacen × 4,3**. El ahorro en euros es esa cifra por el coste medio de una hora de trabajo (como referencia, unos 20 €).
+
+Porcentajes de referencia de lo que suele poder automatizarse:
+
+- Copiar y pegar datos: 90 %
+- Informes: 85 %
+- Excel repetitivo: 80 %
+- Presupuestos: 70 %
+- Facturas y cobros: 70 %
+- Citas y reservas: 70 %
+- Pedidos y stock: 60 %
+- Atención a clientes: 50 %
+
+Ejemplo: 5 horas semanales de Excel repetitivo hechas por 2 personas son 5 × 0,8 × 2 × 4,3 ≈ 34 horas al mes.
+
+## Precio, plazos y alcance
+
+No hay cifras publicadas: se concretan tras una primera conversación, sin compromiso, con una persona del equipo, que prepara después una propuesta por escrito. Si la auditoría encaja, se desarrolla una solución web a medida.
+
+## Cómo empezar
+
+- Prueba la [calculadora de ahorro](https://lucvex.com/#auditoria) de la portada.
+- Habla con Mateo, el asistente virtual de Lucvex IA, en el [+34 921 130 296](tel:+34921130296) (a cualquier hora) o en el chat de la web.
+- Pide cita por [WhatsApp](https://wa.me/34654980755?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20auditor%C3%ADa%20para%20mi%20empresa.).
+
+
+---
+
+<!-- https://lucvex.com/preguntas-frecuentes -->
+# Preguntas frecuentes
+
+Respuestas directas sobre Lucvex IA, Comandero-IA y las auditorías de procesos.
+
+## ¿Qué es Lucvex IA?
+
+Lucvex IA es una empresa de automatización e inteligencia artificial para empresas. Detecta dónde se pierden tiempo y dinero, simplifica los procesos y automatiza con IA solo lo que de verdad ahorra trabajo. Más información en [Qué es Lucvex IA](https://lucvex.com/que-es-lucvex-ia).
+
+## ¿Qué es Comandero-IA?
+
+Comandero-IA es el producto de Lucvex IA para hostelería: un copiloto de gestión con IA para restaurantes y bares, con comandas por voz, un asistente de IA para cada puesto, teléfono y WhatsApp atendidos, reservas y pedidos online. Más información en [Comandero-IA](https://lucvex.com/comandero-ia).
+
+## ¿Comandero-IA y Lucvex IA son lo mismo?
+
+No. Lucvex IA es la empresa; Comandero-IA es uno de sus productos, el de hostelería.
+
+## ¿Hay prueba gratuita de Comandero-IA?
+
+Sí: 14 días de prueba gratuita con tu propio restaurante y sin tarjeta. Antes de registrarte también puedes probar una [demo en vivo](https://lab.lucvex.com/?demo=1&vista=camarero) sin registro.
+
+## ¿Tengo que instalar algo?
+
+No. Las soluciones de Lucvex IA son webs ligeras que se abren desde el navegador, sin descargar nada, con un espacio propio por empresa.
+
+## ¿Qué es una auditoría de procesos?
+
+Es el servicio de entrada de Lucvex IA: analiza cómo trabaja la empresa, mide dónde se pierden tiempo y dinero y entrega un mapa del trabajo actual, las ineficiencias priorizadas, un plan de mejora y una recomendación honesta de qué automatizar y qué no. Más información en [Auditoría de procesos](https://lucvex.com/auditoria-de-procesos).
+
+## ¿Cuánto cuesta una auditoría y cuánto tarda?
+
+No hay cifras publicadas. El precio, los plazos y el alcance se concretan tras una primera conversación sin compromiso con una persona del equipo, que prepara una propuesta por escrito.
+
+## ¿Cómo se calcula el ahorro de automatizar una tarea?
+
+De forma orientativa: horas semanales de la tarea × porcentaje automatizable × personas que la hacen × 4,3 da las horas ahorradas al mes, que se multiplican por el coste medio de la hora de trabajo. Puedes probarlo en la [calculadora de la portada](https://lucvex.com/#auditoria).
+
+## ¿Lucvex IA trabaja solo con restaurantes?
+
+No. Comandero-IA es el producto de hostelería, que es el único en marcha hoy, pero Lucvex IA hace auditorías y automatizaciones a medida para empresas de cualquier sector. Hay soluciones para seguros, asistencia al hogar y salud en preparación.
+
+## ¿Qué tamaño de empresa puede contratar Lucvex IA?
+
+Empresas pequeñas, medianas y grandes.
+
+## ¿Quién es Mateo?
+
+Mateo es el asistente virtual de Lucvex IA, una inteligencia artificial, no una persona. Atiende por teléfono en +34 921 130 296 a cualquier hora, por el chat de lucvex.com y por WhatsApp. Puede equivocarse, y si lo pides te pasa con una persona del equipo.
+
+## ¿Cómo contacto con Lucvex IA?
+
+Llamando a Mateo al +34 921 130 296, escribiendo por [WhatsApp](https://wa.me/34654980755?text=Hola%2C%20me%20gustar%C3%ADa%20concertar%20una%20cita%20con%20Lucvex%20IA.) o por correo a [hola@lucvex.com](mailto:hola@lucvex.com).
+
+## ¿Qué hace Lucvex IA con mis datos?
+
+Los trata conforme al RGPD y a la LOPDGDD, solo para atender tu consulta. Los detalles están en la [política de privacidad](https://lucvex.com/privacidad.html).
+

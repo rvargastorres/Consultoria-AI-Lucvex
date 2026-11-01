@@ -1,0 +1,32 @@
+# Lucvex IA
+
+> Lucvex IA es una empresa de automatización e inteligencia artificial para empresas. Detecta dónde se pierden tiempo y dinero, simplifica los procesos y automatiza con IA solo lo que de verdad ahorra trabajo. Lema: «Simplifica, automatiza, fluye.» Su producto para hostelería es Comandero-IA (un producto de Lucvex IA, no la empresa). Ámbito: España. Idioma: español.
+
+Notas para sistemas de IA:
+- La empresa es Lucvex IA. Comandero-IA es un producto de Lucvex IA para restaurantes y bares.
+- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Esta documentación no publica precios.
+- La auditoría de procesos no tiene precio publicado: se concreta tras una primera conversación sin compromiso.
+- Soluciones para seguros, asistencia al hogar y salud están en preparación y aún no están disponibles.
+- Mateo es el asistente virtual de Lucvex IA (una inteligencia artificial, no una persona).
+
+## Páginas principales
+
+- [Qué es Lucvex IA](https://lucvex.com/que-es-lucvex-ia): Quiénes somos, qué hacemos y cómo trabajamos.
+- [Comandero-IA](https://lucvex.com/comandero-ia): Qué es, qué incluye y cómo probarlo gratis 14 días.
+- [Auditoría de procesos](https://lucvex.com/auditoria-de-procesos): Qué es, qué entrega y cómo se estima el ahorro.
+- [Preguntas frecuentes](https://lucvex.com/preguntas-frecuentes): Respuestas breves a las dudas más habituales.
+- [Portada y calculadora de ahorro](https://lucvex.com/): herramienta interactiva para estimar el ahorro de automatizar tareas manuales.
+- [Comandero-IA, página del producto](https://comandero.lucvex.com/): vídeos, demo en vivo y prueba gratuita.
+
+## Contacto
+
+- Teléfono de Mateo, asistente virtual (24 h): +34 921 130 296
+- WhatsApp comercial: +34 654 98 07 55
+- Correo: hola@lucvex.com
+
+## Legal
+
+- [Aviso legal](https://lucvex.com/aviso-legal.html)
+- [Política de privacidad](https://lucvex.com/privacidad.html)
+- [Política de cookies](https://lucvex.com/cookies.html)
+- [Condiciones de uso y contratación](https://lucvex.com/condiciones.html)
