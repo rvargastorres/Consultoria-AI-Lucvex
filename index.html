@@ -205,11 +205,13 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
 .mv{display:grid;grid-template-columns:1fr 1fr;gap:34px}.mv h3{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--acento);margin-bottom:6px}@media(max-width:760px){.mv{grid-template-columns:1fr;gap:22px}}
 .contacto-filas{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 /* barra móvil */
-.barra{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:8px;padding:10px 14px;background:rgba(248,241,228,.94);backdrop-filter:blur(10px);border-top:1px solid var(--linea)}
-.barra .btn{flex:1;padding:12px 10px;font-size:.88rem}
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(248,241,228,.94);backdrop-filter:blur(10px);border-top:1px solid var(--linea)}
+.barra .btn{flex:1;padding:0 10px;min-height:46px;font-size:.86rem;white-space:nowrap;justify-content:center;gap:6px}
+.barra .btn.wa{flex:1.45}.barra .btn.sec{flex:.85}
+.barra .btn .ico{width:17px;height:17px;flex:none}
 @media(max-width:1100px){.tel-vis{display:none}}
 @media(max-width:900px){.nav-top{display:none}.aud-fila{grid-template-columns:1fr}.resultado{grid-template-columns:1fr}.aud-caja{padding:22px}}
-@media(max-width:560px){.barra{display:flex}body{padding-bottom:64px}.nav-acc .btn.peq{display:none}.cabecera{min-height:70vh}.flota{display:none!important}}
+@media(max-width:560px){.barra{display:flex}body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}.nav-acc .btn.peq{display:none}.cabecera{min-height:70vh}.flota{display:none!important}}
 /* chat con Mateo */
 .tel-vis{font-size:.9rem;font-weight:600;color:var(--texto);text-decoration:none;display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
 .tel-vis:hover{color:var(--acento)}.tel-vis svg{width:16px;height:16px;color:var(--acento)}
@@ -252,7 +254,7 @@ footer{border-top:1px solid var(--linea);padding:34px 0 44px;color:var(--mute);f
 .chat-form .fila{display:flex;gap:8px}.chat-form .fila .btn{flex:1}
 .chat-form .error{color:#b3261e;font-size:.82rem;min-height:1em}
 @media(max-width:560px){
-  .lanza{bottom:78px;right:12px}
+  .lanza{display:none}
   .chat{right:0;bottom:0;width:100vw;height:100dvh;border-radius:0;border:0}
 }
 </style>
