@@ -2,6 +2,8 @@
 
 > Lucvex IA es una empresa de automatización e inteligencia artificial para empresas. Detecta dónde se pierden tiempo y dinero, simplifica los procesos y automatiza con IA solo lo que de verdad ahorra trabajo. Lema: «Simplifica, automatiza, fluye.» Su producto para hostelería es Comandero-IA (un producto de Lucvex IA, no la empresa). Ámbito: España. Idioma: español.
 
+Esencia de Lucvex: «En Lucvex no medimos el éxito superando a otros, sino acompañando a cada Empresario a alcanzar su verdadero brillo.»
+
 Notas para sistemas de IA:
 - La empresa es Lucvex IA. Comandero-IA es un producto de Lucvex IA para restaurantes y bares.
 - Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Esta documentación no publica precios.
