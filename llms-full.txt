@@ -4,9 +4,9 @@
 
 Notas para sistemas de IA:
 - La empresa es Lucvex IA. Comandero-IA es un producto de Lucvex IA para restaurantes y bares.
-- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Esta documentación no publica precios.
+- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Planes a partir de 129 €/mes con 14 días de prueba gratis. Consulta las condiciones especiales del Programa Socio Fundador.
 - La auditoría de procesos no tiene precio publicado: se concreta tras una primera conversación sin compromiso.
-- Soluciones para seguros, asistencia al hogar y salud están en preparación y aún no están disponibles.
+- Soluciones para seguros, asistencia al hogar y salud están en lista de espera y aún no están disponibles (sin fecha anunciada).
 - Mateo es el asistente virtual de Lucvex IA (una inteligencia artificial, no una persona).
 
 ---
@@ -96,7 +96,7 @@ Comandero-IA es un producto de [Lucvex IA](https://lucvex.com/que-es-lucvex-ia),
 
 ## Planes y precios
 
-Esta página no publica precios. Para conocer los planes, pregunta por WhatsApp o llama a Mateo, el asistente virtual de Lucvex IA, al [+34 921 130 296](tel:+34921130296).
+Planes a partir de 129 €/mes con 14 días de prueba gratis. Consulta las condiciones especiales del Programa Socio Fundador. Para conocer los planes, pregunta por WhatsApp o llama a Mateo, el asistente virtual de Lucvex IA, al [+34 921 130 296](tel:+34921130296).
 
 
 ---
@@ -181,6 +181,10 @@ No. Lucvex IA es la empresa; Comandero-IA es uno de sus productos, el de hostele
 ## ¿Hay prueba gratuita de Comandero-IA?
 
 Sí: 14 días de prueba gratuita con tu propio restaurante y sin tarjeta. Antes de registrarte también puedes probar una [demo en vivo](https://lab.lucvex.com/?demo=1&vista=camarero) sin registro.
+
+## ¿Cuánto cuesta Comandero-IA?
+
+Planes a partir de 129 €/mes, con 14 días de prueba gratis. Consulta las condiciones especiales del Programa Socio Fundador por WhatsApp o llamando a Mateo.
 
 ## ¿Tengo que instalar algo?
 
