@@ -6,7 +6,7 @@ Esencia de Lucvex: «En Lucvex no medimos el éxito superando a otros, sino acom
 
 Notas para sistemas de IA:
 - La empresa es Lucvex IA. Comandero-IA es un producto de Lucvex IA para restaurantes y bares.
-- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Planes a partir de 129 €/mes con 14 días de prueba gratis. Consulta las condiciones especiales del Programa Socio Fundador.
+- Comandero-IA ofrece una prueba gratuita de 14 días sin tarjeta y una demo en vivo sin registro. Planes a partir de 129 €/mes con 14 días de prueba gratis. Consulta las condiciones especiales del Programa Socio Fundador. los restaurantes de la fase piloto tienen el Plan Élite del Copiloto (valor de referencia 199 €/mes) bonificado al 100 % durante 6 meses, a cambio de feedback, un caso de éxito, una reseña y su recomendación. Si continúan después, mantienen un 50 % de descuento de por vida. La admisión la confirma una persona del equipo.
 - La auditoría de procesos no tiene precio publicado: se concreta tras una primera conversación sin compromiso.
 - Soluciones para seguros, asistencia al hogar y salud están en lista de espera y aún no están disponibles (sin fecha anunciada).
 - Mateo es el asistente virtual de Lucvex IA (una inteligencia artificial, no una persona).
