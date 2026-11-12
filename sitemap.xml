@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://lucvex.com/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://lucvex.com/img/portada.jpg</image:loc></image:image>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://lucvex.com/comandero-ia</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -29,7 +29,7 @@
   </url>
   <url>
     <loc>https://lucvex.com/preguntas-frecuentes</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
