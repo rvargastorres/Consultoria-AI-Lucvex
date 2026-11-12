@@ -73,7 +73,7 @@ Nombre comercial: Lucvex IA (Lucvex AI Operations). Ámbito: España. Los datos 
 - **Tres estilos de comanda**: entrada por voz, interfaz gráfica o papel; cada equipo elige cómo trabaja.
 - **Un asistente de IA para cada puesto**: gerencia, sala, cocina, barra y reparto.
 - **Teléfono y WhatsApp atendidos** mientras el equipo sirve.
-- **Reservas y pedidos online** con el propio canal del restaurante, sin comisiones de apps de reparto.
+- **Reservas y pedidos online** con el propio canal del restaurante, sin las comisiones abusivas de las apps de reparto (30-35 %).
 - **Autocomanda grupal con pago individual**: cada persona de la mesa se une con un QR, pide y paga lo suyo, sin descargar ninguna app.
 - **Agrupar y unir mesas**, intercomunicador por voz entre sala, barra y cocina y cuadro de mando con las ventas del servicio en vivo.
 - **Informes y administración** para entender cómo ha ido el día y controlar gastos y turnos, según el plan contratado.
